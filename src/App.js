@@ -48,10 +48,6 @@ export default function App() {
     const newTodos = [...todos, { text }];
     setTodos(newTodos);
   };
-  const removTodo = text => {
-    const newTodos = [...todos, { text }];
-    setTodos(newTodos);
-  };
   const completeTodo = index => {
     const newTodos = [...todos];
     newTodos[index].isCompleted = true;
